@@ -3,7 +3,7 @@
 ## Overview
 This is mobile app for recording daily 'blood pressure' for your health control.  
 
-
+![ScreenShot](https://github.com/kuma-panda/bpnote_monaca_app/blob/master/20190524-202602734.jpg)
 
 ## Features
 - Daily blood pressure (high / low) and pulse value can be recorded into your device. (No server storage and cloud service needed)  
