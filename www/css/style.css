@@ -1,0 +1,55 @@
+#mtbl {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: white;
+  overflow: hidden;
+  box-sizing: border-box; }
+  #mtbl table {
+    width: 100%;
+    position: absolute;
+    background: #EEE;
+    border-collapse: collapse;
+    table-layout: fixed; }
+    #mtbl table th {
+      box-sizing: border-box;
+      border: 1px solid #999;
+      height: 30px;
+      line-height: 29px;
+      padding: 0; }
+      #mtbl table th.day {
+        width: 30px; }
+      #mtbl table th.max, #mtbl table th.min, #mtbl table th.pulse {
+        width: 70px; }
+      #mtbl table th.medicine {
+        width: 44px; }
+  #mtbl div.scroll_area {
+    width: 100%;
+    height: 100%;
+    padding: 30px 0 0; }
+    #mtbl div.scroll_area .scroll_body {
+      width: 100%;
+      height: 100%;
+      background: white;
+      overflow-y: auto; }
+      #mtbl div.scroll_area .scroll_body table {
+        background: white; }
+        #mtbl div.scroll_area .scroll_body table td {
+          box-sizing: border-box;
+          border: 1px solid #999;
+          text-align: center; }
+          #mtbl div.scroll_area .scroll_body table td.day {
+            width: 30px; }
+          #mtbl div.scroll_area .scroll_body table td.time, #mtbl div.scroll_area .scroll_body table td.max, #mtbl div.scroll_area .scroll_body table td.min, #mtbl div.scroll_area .scroll_body table td.pulse, #mtbl div.scroll_area .scroll_body table td.medicine {
+            height: 24px;
+            line-height: 23px; }
+          #mtbl div.scroll_area .scroll_body table td.max, #mtbl div.scroll_area .scroll_body table td.min, #mtbl div.scroll_area .scroll_body table td.pulse {
+            width: 70px; }
+          #mtbl div.scroll_area .scroll_body table td.medicine {
+            width: 44px; }
+        #mtbl div.scroll_area .scroll_body table tr.holiday td {
+          background: #FFE0E0; }
+        #mtbl div.scroll_area .scroll_body table tr.saturday td {
+          background: #E0FFE0; }
+
+/*# sourceMappingURL=style.css.map */

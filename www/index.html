@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+     <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+          <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+          <script src="components/loader.js"></script>
+          <link rel="stylesheet" href="components/loader.css">
+          <link rel="stylesheet" href="materialdesignfont/css/materialdesignicons.min.css">
+          <link rel="stylesheet" href="webix/codebase/webix.min.css">
+          <!-- <link rel="stylesheet" href="css/style.css"> -->
+          <style>
+               .webix_cal_month_name {
+                    font-size: 18px;
+               }
+               .webix_dtable .webix_cell {
+                    border-color: #DDD !important;
+                    padding-left: 0 !important;
+                    padding-right: 0 !important;
+               }
+               .webix_dtable .webix_hcell {
+                    padding-left: 8px !important;
+                    padding-right: 8px !important;
+                    background: #888;
+                    color: white;
+               }
+          </style>
+     </head>
+     <body>
+          <!-- 以下は、MonthlyTable ビューで使われるテンプレートです。ここに直接レンダリングされることはありません -->
+          <!-- <div id="mtbltemplate" style="display:none">
+               <div id="mtbl">
+                    <table class="header">
+                         <thead>
+                              <tr>
+                                   <th class="day">日</th>
+                                   <th class="time">測定時刻</th>
+                                   <th class="max">最高血圧</th>
+                                   <th class="min">最低血圧</th>
+                                   <th class="pulse">脈拍</th>
+                                   <th class="medicine">服薬</th>
+                              </tr>
+                         </thead>
+                    </table>
+                    <div class="scroll_area">
+                         <div class="scroll_body">
+                              <table>
+                                   <tbody id="monthly-table-body">
+                                   </tbody>
+                              </table>
+                         </div>
+                    </div>
+               </div>
+          </div> -->
+               
+          <script src="webix/codebase/webix.min.js"></script>
+          <script src="webix/codebase/i18n/ja.js"></script>
+          <script src="js/pouchdb-7.0.0.min.js"></script>
+          <script src="js/Chart.bundle.min.js"></script>
+          <script src="bundle.js"></script>
+     </body>
+</html>
